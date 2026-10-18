@@ -10,8 +10,18 @@
 
 <body>
 
-  <section class="container">
-    <h1>Lorem ipsum dolor sit amet</h1>
+  <section class="container" aria-labelledby="titulo">
+    <h1 id="titulo">Gerador de CPF</h1>
+  
+    <div class="main">
+      <output class="cpf-place" aria-live="polite" aria-label="CPF gerado">
+        <span class="cpf-gerado">Clique em “Gerar CPF”</span>
+      </output>
+  
+      <button type="button" id="gerar-cpf">
+        Gerar CPF
+      </button>
+    </div>
   </section>
 
   <script src="./assets/js/bundle.js"></script>
